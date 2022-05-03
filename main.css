@@ -1,0 +1,36 @@
+
+.body{
+    text-align:center;
+}
+
+#counter{
+    font-size:50px;
+    font-weight:700;
+    padding-left:50px;
+}
+
+.buttonPosition{
+    width:100%;
+    display:flex;
+    text-align:center;
+}
+
+.button{
+    flex:1;
+    font-weight:700;
+    border:solid;
+    padding:10px 20px;
+    cursor: pointer;
+}
+
+/* ボタン非表示 */
+.hide{
+    display:none;
+}
+
+/* ボタンの無効時用処理 */
+.invalid{
+    opacity:0.5;
+}
+
+
