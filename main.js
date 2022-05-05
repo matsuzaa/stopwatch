@@ -90,6 +90,9 @@
 
     //リセット押下時の処理
     function setReset(){
+        if(reset.classList.contains("invalid") === true){
+            return;
+        }
         setDefault();
         countEnd = 0;   //時間差分初期化
         //表示の初期化
